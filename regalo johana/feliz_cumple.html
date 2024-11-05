@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+</head>
+<body>
+    <div class="card">
+        <div class="face front">
+            <img src="Feliz cumple ma.png" alt="Feliz Cumpleaños">
+            <h1>Click aquí</h1>
+        </div>
+        <div class="face back">
+            <h1>Feliz Cumple</h1>
+            <p>Hola, ma. Quería desearte un muy feliz cumpleaños<br>Sabes que te quiero muchísimo y sos mi segunda mamá.<br>Gracias por darme todo lo que me das. Espero que pases un hermoso y tranquilo día.<br> ¡Te amo mucho! ❤</p>
+        </div>
+    </div>
+
+    <script src="confetti.js"></script>
+    <!-- Confetti  JS-->
+    <script>
+
+        // start
+
+        const start = () => {
+            setTimeout(function() {
+                confetti.start()
+            }, 1000); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+        };
+
+        //  Stop
+
+        const stop = () => {
+            setTimeout(function() {
+                confetti.stop()
+            }, 5000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
+        };
+
+        start();
+        stop();
+    </script>
+</body>
+
+</html>
+
